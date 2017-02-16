@@ -1,0 +1,3 @@
+include ':app'
+include ':UpHybridRuntime'
+project(':UpHybridRuntime').projectDir = new File(settingsDir, '../uphybrid-runtime')
